@@ -47,6 +47,7 @@ alias gmt='git mergetool'
 alias np='/cygdrive/c/Program\ Files\ \(x86\)/Notepad++/notepad++.exe' 
 alias gb='git branch' 
 alias sf='~/scpFiles.sh' 
+
 #Migration--- move to certain directories
 alias desk='cd /cygdrive/c/Users/628196/Desktop/' 
 alias infra='cd /cygdrive/c/LookAhead/Git/IPS_LKA2.0-Infrastructure-Release/Infrastructure/LookAhead' 
