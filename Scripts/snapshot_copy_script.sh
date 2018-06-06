@@ -1,3 +1,4 @@
+#This script copies the latest snapshot file to the DEV3 snapshot directory.
 snapshotSrc=/lookahead_nas_prod/Snapshots/CA/PROD-CDC/snapshots
 tempSnapDir=/cygdrive/c/snapshottmp
 snapshotDest=/opt/LookAhead/Snapshots/CA/DEV3/snapshots
