@@ -41,9 +41,11 @@ alias fltlgs='~/viewFlightLogs.sh'
 alias oaglgs='~/viewOAGLogs.sh' 
 alias mvdesk='~/scripts/copy_toDesktop.sh' 
 alias bgr='~/buildReleaseNotes.sh' 
+alias queue='~/scripts/queue_depth_prod.sh' 
 
 #SSH
-alias seedbox='ssh jmatthews906@46.182.109.150' 
+#Helper for quickly searching what I've stored
+alias ssh-aliases='cat /home/ashle/scripts/ssh-aliases.sh' 
 source /home/ashle/scripts/ssh-aliases.sh
 
 #Migration--- move to certain directories
