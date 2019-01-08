@@ -18,3 +18,5 @@ Return
 }
 
 !e::ToggleWinMinimize("All Notebooks - ashley.videtto@gmail.com - Evernote")
+!o::ToggleWinMinimize("Inbox - Ashley.Videtto@aa.com - Outlook")
+!s::ToggleWinMinimize("Slack - American Airlines")
