@@ -1,7 +1,0 @@
-output
-lib
-build
-.gradle
-.settings
-.metadata
-$tf
