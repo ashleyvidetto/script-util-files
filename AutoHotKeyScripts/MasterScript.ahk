@@ -1,4 +1,6 @@
-﻿ToggleWinMinimize(TheWindowTitle)
+﻿; Create shortcuts to bring windows into focus, uses this toggle win minize method
+
+ToggleWinMinimize(TheWindowTitle)
 {
 SetTitleMatchMode,2
 DetectHiddenWindows, Off
@@ -18,8 +20,9 @@ Return
 }
 
 !e::ToggleWinMinimize("All Notebooks - ashley.videtto@gmail.com - Evernote")
-!o::ToggleWinMinimize("Inbox - Ashley.Videtto@aa.com - Outlook")
+!o::ToggleWinMinimize("Inbox")
 !s::ToggleWinMinimize("Slack - American Airlines")
+!i::ToggleWinMinimize("IPS_LKA2.0-Release [C:\LookAhead\Git\IPS_LKA2.0-Release] - IntelliJ IDEA")
 
 !h::Send {Left}
 return
@@ -33,4 +36,11 @@ return
 return
 !+l::Send {End}
 return
+
+; Map CapsLock to Escape
 Capslock::Esc
+
+; Maximize current window with Alt + M
+#SingleInstance force
+!m::WinMaximize, A ; Assign a hotkey to maximize the active window
+return
