@@ -19,10 +19,10 @@ DllCall("SwitchToThisWindow", "UInt", winid, "UInt", 1)
 Return
 }
 
-!e::ToggleWinMinimize("All Notebooks - ashley.videtto@gmail.com - Evernote")
-!o::ToggleWinMinimize("Inbox")
-!s::ToggleWinMinimize("Slack - American Airlines")
-!i::ToggleWinMinimize("IPS_LKA2.0-Release [C:\LookAhead\Git\IPS_LKA2.0-Release] - IntelliJ IDEA")
+!e::ToggleWinMinimize("Evernote")
+!o::ToggleWinMinimize("Outlook")
+!s::ToggleWinMinimize("Slack")
+!i::ToggleWinMinimize("IntelliJ IDEA")
 
 !h::Send {Left}
 return
@@ -44,3 +44,9 @@ Capslock::Esc
 #SingleInstance force
 !m::WinMaximize, A ; Assign a hotkey to maximize the active window
 return
+
+; Goal here is to change alt+j to alt+down so that I can easily toggle unreads in slack
+#If WinActive("Slack")
+!j::Send !{Down}
+return
+
