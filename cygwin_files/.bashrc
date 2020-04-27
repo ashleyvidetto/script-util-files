@@ -30,11 +30,11 @@ alias gp='git push'
 alias ga='git add .' 
 alias g='git' 
 alias np='/cygdrive/c/Program\ Files\/Notepad++/notepad++.exe' 
-alias n='node'
+alias n='node' 
 alias gb='git branch' 
 
 #Custom Scripts
-alias sf='~/scpFiles.sh' 
+alias sf='~/scripts/copy_to_Jenkins.sh' 
 alias snp_cpy='~/snapshot_copy_script.sh' 
 alias dlogs='~/removeDEVLogs.sh' 
 alias fltlgs='~/viewFlightLogs.sh' 
@@ -42,12 +42,14 @@ alias oaglgs='~/viewOAGLogs.sh'
 alias mvdesk='~/scripts/copy_toDesktop.sh' 
 alias bgr='~/buildReleaseNotes.sh' 
 alias queue='~/scripts/queue_depth_prod.sh' 
-
+alias ops-no-ui='~/scripts/build_deploy_opsadvisor-no-ui.sh' 
+alias ops-build='~/scripts/build_deploy_opsadvisor.sh' 
 #SSH
 #Helper for quickly searching what I've stored
-alias ssh-aliases='cat /home/ashle/scripts/ssh-aliases.sh' 
-source /home/ashle/scripts/ssh-aliases.sh
-
+alias ssh-aliases='cat /cygdrive/c/cygwin64/home/ashle/scripts/ssh-aliases.sh' ;
+source '/cygdrive/c/cygwin64/home/ashle/scripts/ssh-aliases.sh' 
+#Log scripts
+source /home/ashle/scripts/viewLogScripts.sh;
 #Migration--- move to certain directories
 alias desk='cd /cygdrive/c/Users/ashle/OneDrive/desktop/' 
 alias infra='cd /cygdrive/c/LookAhead/Git/IPS_LKA2.0-Infrastructure-Release/Infrastructure/LookAhead' 
@@ -67,4 +69,13 @@ alias iup='infra;go master;gl;'
 alias idea='cd /cygdrive/c/Users/628196/.IdeaIC2017.3' 
 alias gren='n C:/LookAhead/Git/github-release-notes/github-release-notes.js' 
 alias gr='cd /cygdrive/c/LookAhead/Git/github-release-notes' 
-bind "set completion-ignore-case on" 
+bind "set completion-ignore-case on" ;
+alias ops-ui='cd /cygdrive/c/LookAhead/Git/IPS_LKA2.0-Release/WebApps/OPSAdvisor_WebApp/UI' 
+alias tomcat='cd /cygdrive/c/Workspace/Utilities/apache-tomcat-8.5.43' 
+alias addons='cd /cygdrive/c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns/' 
+
+#Deploy Scripts
+alias build_deploy_ops='~/scripts/build_deploy_opsadvisor.sh' 
+alias build_deploy_opsspace='~/scripts/build_deploy_opsadvisorspace.sh' 
+alias build_deploy_ops_noui='~/scripts/build_deploy_opsadvisor-no-ui.sh' 
+alias build_deploy_snapshot='~/scripts/build_deploy_snapshotjob.sh' 
