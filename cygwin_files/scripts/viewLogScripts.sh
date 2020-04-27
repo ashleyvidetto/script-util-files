@@ -1,0 +1,6 @@
+alias maintpdc='ssh avidetto@hzdalluhs301.horizon.plano.aa.com "sh /export/home/avidetto/scripts/viewMaintLogs.sh";ssh avidetto@hzdalluhs301.horizon.plano.aa.com' 
+alias maintcdc='ssh avidetto@hztulluhs301.horizon.cherokee.aa.com "sh /export/home/avidetto/scripts/viewMaintLogs.sh";ssh avidetto@hztulluhs301.horizon.cherokee.aa.com' 
+alias divpdc='ssh avidetto@hzdalluhs301.horizon.plano.aa.com "sh /export/home/avidetto/scripts/viewDivLogs.sh";ssh avidetto@hzdalluhs301.horizon.plano.aa.com' 
+alias divcdc='ssh avidetto@hztulluhs301.horizon.cherokee.aa.com "sh /export/home/avidetto/scripts/viewDivLogs.sh";ssh avidetto@hztulluhs301.horizon.cherokee.aa.com' 
+alias cxlpdc='ssh avidetto@hzdalluhs301.horizon.plano.aa.com "sh /export/home/avidetto/scripts/viewCxlLogs.sh";ssh avidetto@hzdalluhs301.horizon.plano.aa.com' 
+alias cxlcdc='ssh avidetto@hztulluhs301.horizon.cherokee.aa.com "sh /export/home/avidetto/scripts/viewCxlLogs.sh";ssh avidetto@hztulluhs301.horizon.cherokee.aa.com' 

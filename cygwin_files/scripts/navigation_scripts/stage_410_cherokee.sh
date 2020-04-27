@@ -1,0 +1,1 @@
+ssh avidetto@hztulluhs301.horizon.cherokee.aa.com '/export/home/avidetto/scripts/navigationalScripts/stage/410.sh ' 

@@ -1,0 +1,7 @@
+.git
+*.snp
+*.war
+node_modules
+WebContent/
+flexgui
+build/libs/*.jar
