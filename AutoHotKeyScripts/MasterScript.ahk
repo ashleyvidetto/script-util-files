@@ -23,8 +23,6 @@ Return
 !o::ToggleWinMinimize("Outlook")
 !s::ToggleWinMinimize("Slack")
 !i::ToggleWinMinimize("IntelliJ IDEA")
-!v::ToggleWinMinimize("Visual Studio Code")
-!f::ToggleWinMinimize("10.116.93.214")
 
 !h::Send {Left}
 return
