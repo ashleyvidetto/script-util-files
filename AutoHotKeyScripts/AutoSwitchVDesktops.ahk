@@ -128,7 +128,7 @@ LWin & 6::switchDesktopByNumber(6)
 LWin & 7::switchDesktopByNumber(7)
 LWin & 8::switchDesktopByNumber(8)
 LWin & 9::switchDesktopByNumber(9)
-!w::switchDesktopByNumber(1
+!w::switchDesktopByNumber(1)
 !1::switchDesktopByNumber(1)
 !2::switchDesktopByNumber(2)
 !3::switchDesktopByNumber(3)
